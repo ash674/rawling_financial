@@ -1,0 +1,25 @@
+.headSection {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 10px;
+margin: auto;
+max-width: 1550px;
+border-bottom: 2px solid #8f1665;
+    a{
+        text-decoration: none;
+        color: #707070;font-family: 'Poppins', sans-serif;
+        margin-left: 40px;
+    }
+}
+
+.headLinks {
+    margin-left:100px;
+    font-size: 18px;
+    margin-top: 50px;
+
+}
+
+.LogoSection {
+    margin-left: 700px;
+}

@@ -1,0 +1,32 @@
+.bodyContent {
+display: flex;
+flex-direction: row;
+margin-top: 40px;
+margin-bottom: 200px;
+margin-left: 300px;font-family: 'Poppins', sans-serif;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  
+}
+
+.bodyTeamContent {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin-left: 100px;
+    color: #464646;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.valueContent {
+    display: flex;
+    flex-direction: column;
+}
+.Content1, .Content2, .COntent3{
+color: #464646;
+}
