@@ -1,0 +1,81 @@
+@media (min-width: 500px) {
+// INDEX PAGE QUERY
+.LogoSection {
+margin-left: 220px;
+}
+
+.headSection {
+    padding-top: 10px;
+}
+
+.headLinks {
+    display: flex;
+    margin-top: 25px;
+    font-size: 14px;
+    a{
+        margin-left: 0px;
+    }
+}
+
+.footerSection {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    font-size: 14px;
+    text-align: center;
+    a {
+        margin: auto;
+    }
+}
+
+.bodyContent {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    font-size: 16px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.bodyImage {
+    margin: auto;
+}
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 0px;
+  
+}
+
+// INDEX PAGE QUERY ENDS
+
+
+}
+
+
+@media (min-width: 800px) {
+    
+// INDEX PAGE QUERY
+    #button {
+		display: none;
+	}
+
+	#burgerCon.slideToggle {
+		display: none;
+	}
+#burgerCon {
+	display: flex;
+	flex-direction: row;
+}
+
+
+.headLinks {
+    a{
+        margin-left: 10px;
+    }
+}
+
+
+// INDEX PAGE QUERY ENDS
+}
