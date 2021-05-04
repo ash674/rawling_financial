@@ -61,8 +61,12 @@
 <script src="../js/menu.js"></script>
 <footer>
 <section class="footerSection">
+<section class="footercontent">
     <a href="legal.php">Legal Information</a>
+</section>
+    <section class="paraCon">
     <p>2021 Rawling Financial Inc</p>
+    </section>
 </section>
 
 </footer>
