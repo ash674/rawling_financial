@@ -31,27 +31,7 @@
 advisors and other outside financial experts, we will use a team approach to find the solution that is best suited for you.
 Rawling Financial is committed to helping you achieve your financial goals.</p>
         </section>
-    <section class="mainContent">
-    <section class="Content1">
-    <h2>Expertise in:</h2>
-    <p>Risk Management</p>
-    <p>Wealth Optimization</p>
-    <p>De-accumulation Coaching</p>  
-    </section>
-
-
-    <section class="Content2">
-    <p>Your goals</p>
-    <p>Team approach</p>
-    <p>Creative solution</p>    
-    </section>
-
-    <section class="Content3">
-    <p>"Helping Clients make wise decisions regarding their wealth"</p>  
-    </section>
-
-    </section>
-    </section>
+   
 </body>
 <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 <footer>

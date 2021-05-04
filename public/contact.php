@@ -44,7 +44,8 @@
     <p>Get directions…</p>
     </section>
 
-    <section class="Content1"><div class="dropdown">
+    <section class="Content1">
+        <div class="dropdown">
   <section class="dropCon"><img src="../images/play-button.png" width="20px" height="20px" onclick="myFunction()" class="dropbtn" alt=""><h3>Client Parking</h3></section>
   <div id="myDropdown" class="dropdown-content">
       <p>Rawling Financial Inc. would like to pay for your parking. Parking is
@@ -65,7 +66,7 @@ Please go to the 4th floor, we are Suite 420.</p>
     </section>
     </section>
 </body>
-<script src="../js/dropdown.js"></script>
+<script src="../js/dropdown1.js"></script>
 <footer>
 <section class="footerSection">
     <a href="legal.php">Legal Information</a>

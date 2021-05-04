@@ -4,7 +4,7 @@
   padding-top: 20px;
   padding-bottom: 10px;
   margin: auto;
-  max-width: 1550px;
+  max-width: 1650px;
   border-bottom: 2px solid #8f1665;
 }
 .headSection a {
@@ -84,6 +84,27 @@ iframe {
   color: #464646;
 }
 
+.collapsible {
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  display: none;
+  max-width: 600px;
+}
+
+.collapsehead {
+  display: flex;
+  flex-direction: row;
+}
+.collapsehead h3 {
+  margin-top: 12px;
+}
+
 .dropbtn {
   padding: 16px;
   font-size: 16px;
@@ -108,7 +129,7 @@ iframe {
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
-  min-width: 500px;
+  max-width: 600px;
 }
 
 .show {
@@ -119,7 +140,7 @@ iframe {
 .footerSection {
   display: flex;
   flex-direction: row;
-  max-width: 1550px;
+  max-width: 1650px;
   margin: auto;
   font-family: "Poppins", sans-serif;
   justify-content: center;
@@ -154,11 +175,21 @@ iframe {
   .footerSection {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: center;
     font-size: 14px;
-    text-align: center;
   }
-  .footerSection a {
+
+  .paraCon {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .footercontent {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .footercontent a {
     margin: auto;
   }
 
@@ -179,10 +210,33 @@ iframe {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-left: 0px;
+    margin: auto;
+    width: 90%;
+    font-size: 14px;
+  }
+}
+@media (min-width: 700px) {
+  .LogoSection {
+    margin-left: 450px;
+  }
+
+  .footerSection {
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 14px;
+  }
+
+  .paraCon {
+    display: flex;
+    justify-content: center;
+    margin: auto;
   }
 }
 @media (min-width: 800px) {
+  .LogoSection {
+    margin-left: 150px;
+  }
+
   #button {
     display: none;
   }
@@ -196,8 +250,194 @@ iframe {
     flex-direction: row;
   }
 
+  .headLinks {
+    margin-left: 70px;
+  }
   .headLinks a {
     margin-left: 10px;
+  }
+
+  .footerSection {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .footerSection a {
+    margin: none;
+    text-align: left;
+  }
+
+  .paraCon, .footercontent {
+    margin: auto;
+  }
+
+  .bodyContent {
+    flex-direction: row;
+    text-align: left;
+    justify-content: left;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .mainContent {
+    text-align: left;
+    margin-left: 50px;
+  }
+}
+@media (min-width: 900px) {
+  .headLinks {
+    margin-top: 29px;
+    margin-left: 90px;
+  }
+  .headLinks a {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+
+  .bodyContent {
+    margin-left: 130px;
+  }
+
+  .mainContent {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1000px) {
+  .headLinks {
+    margin-left: 110px;
+  }
+
+  .LogoSection {
+    margin-left: 300px;
+  }
+
+  .bodyContent {
+    margin-left: 170px;
+  }
+
+  .mainContent {
+    font-size: 16px;
+    margin-left: 60px;
+  }
+}
+@media (min-width: 1100px) {
+  .LogoSection {
+    margin-left: 350px;
+  }
+
+  .headLinks {
+    margin-left: 130px;
+  }
+  .headLinks a {
+    margin-left: 25px;
+    font-size: 16px;
+  }
+
+  .bodyContent {
+    margin-left: 240px;
+  }
+
+  .mainContent {
+    margin-left: 80px;
+  }
+
+  .footerSection {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .LogoSection {
+    margin-left: 330px;
+  }
+
+  .headLinks {
+    margin-left: 150px;
+  }
+  .headLinks a {
+    margin-left: 27px;
+  }
+
+  .bodyContent {
+    margin-left: 260px;
+  }
+}
+@media (min-width: 1300px) {
+  .LogoSection {
+    margin-left: 360px;
+  }
+
+  .headLinks {
+    margin-left: 180px;
+  }
+
+  .bodyContent {
+    margin-left: 280px;
+  }
+}
+@media (min-width: 1400px) {
+  .LogoSection {
+    margin-left: 400px;
+  }
+
+  .headLinks {
+    margin-left: 210px;
+  }
+
+  .bodyContent {
+    margin-left: 300px;
+  }
+}
+@media (min-width: 1500px) {
+  .LogoSection {
+    margin-left: 450px;
+  }
+
+  .headLinks {
+    margin-left: 260px;
+  }
+
+  .bodyContent {
+    margin-left: 350px;
+  }
+}
+@media (min-width: 1600px) {
+  .LogoSection {
+    margin-left: 500px;
+  }
+
+  .headLinks {
+    margin-left: 280px;
+  }
+
+  .bodyContent {
+    margin-left: 370px;
+  }
+}
+@media (min-width: 1700px) {
+  .LogoSection {
+    margin-left: 550px;
+  }
+
+  .headLinks {
+    margin-left: 310px;
+  }
+
+  .bodyContent {
+    margin-left: 390px;
+  }
+}
+@media (min-width: 1800px) {
+  .LogoSection {
+    margin-left: 500px;
+  }
+
+  .headLinks {
+    margin-left: 340px;
+  }
+
+  .bodyContent {
+    margin-left: 410px;
   }
 }
 

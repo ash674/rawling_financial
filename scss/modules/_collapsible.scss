@@ -1,0 +1,20 @@
+.collapsible {
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    display: none;
+    max-width: 600px;
+  }
+
+  .collapsehead {
+      display: flex;  h3 {
+        margin-top: 12px;
+      }
+      flex-direction: row;
+  }

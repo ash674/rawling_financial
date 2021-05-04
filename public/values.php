@@ -33,18 +33,48 @@
         </section>
     <section class="mainContent">
     <section class="valueContent">
-        <div class="dropdown">
-  <section class="dropCon"><img src="../images/play-button.png" width="20px" height="20px" onclick="myFunction()" class="dropbtn" alt=""><h3>Honesty</h3></section>
-  <div class="myDropdown" class="dropdown-content">
-      <p>Emphasize professionalism in every aspect of our business</p>
-  </div>
+ 
 
-  <section class="dropCon">
-  <img src="../images/play-button.png" width="20px" height="20px" onclick="myFunction()" class="dropbtn" alt=""><h3>Integrity</h3></section>
-  <div class="myDropdown" class="dropdown-content" >
-      <p>sasaas</p>
-  </div>
+<section type="button" class="collapsible">
+    <section class="collapsehead"><img src="../images/play-button.png" width="20px" height="20px" class="dropbtn" alt=""><h3>Honesty</h3></section></section>
+<div class="content">
+  <p>Sincere and straight forward in dealings with customers and business partners</p>
+</div>
 
+
+<section type="button" class="collapsible">
+    <section class="collapsehead"><img src="../images/play-button.png" width="20px" height="20px" class="dropbtn" alt=""><h3>Integrity</h3></section></section>
+<div class="content">
+  <p>Acts in a manner consistent with my words and beliefs</p>
+</div>
+
+
+
+<section type="button" class="collapsible">
+    <section class="collapsehead"><img src="../images/play-button.png" width="20px" height="20px" class="dropbtn" alt=""><h3>Respect</h3></section></section>
+<div class="content">
+  <p>Treats others with dignity and respect</p>
+</div>
+
+
+
+<section type="button" class="collapsible">
+    <section class="collapsehead"><img src="../images/play-button.png" width="20px" height="20px" class="dropbtn" alt=""><h3>Diversity</h3></section></section>
+<div class="content">
+  <p>Seeks, values, and respects differences among customers and business partners</p>
+</div>
+
+
+<section type="button" class="collapsible">
+    <section class="collapsehead"><img src="../images/play-button.png" width="20px" height="20px" class="dropbtn" alt=""><h3>Balance</h3></section></section>
+<div class="content">
+  <p>Strives for stability and vitality in all that is done</p>
+</div>
+
+<section type="button" class="collapsible">
+    <section class="collapsehead"><img src="../images/play-button.png" width="20px" height="20px" class="dropbtn" alt=""><h3>Professionalism</h3></section></section>
+<div class="content">
+  <p>Emphasizes professionalism in every aspect of the business</p>
 </div>
 
 
