@@ -2,6 +2,9 @@
 // INDEX PAGE QUERY
 .LogoSection {
 margin-left: 220px;
+img{
+    height: 60px;
+}
 }
 
 .headSection {
@@ -44,9 +47,7 @@ margin-left: 220px;
     justify-content: center;
 }
 
-.bodyImage {
-    margin: auto;
-}
+
 .mainContent {
     display: flex;
     flex-direction: column;

@@ -154,9 +154,46 @@ iframe {
   margin-right: 400px;
 }
 
+.contact_form form {
+  display: flex;
+  flex-direction: column;
+}
+.contact_form input {
+  height: 35px;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  width: 80%;
+}
+.contact_form label {
+  font-size: 16px;
+  font-weight: 800;
+  padding: 1rem 0;
+  position: relative;
+}
+.contact_form label::after {
+  content: "*";
+  padding: 5px;
+}
+.contact_form textarea {
+  width: 80%;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.contactButton {
+  width: 120px;
+  color: white;
+  background-color: #8f1665;
+  text-align: center;
+  cursor: pointer;
+}
+
 @media (min-width: 500px) {
   .LogoSection {
     margin-left: 220px;
+  }
+  .LogoSection img {
+    height: 60px;
   }
 
   .headSection {
@@ -200,10 +237,6 @@ iframe {
     font-size: 16px;
     margin-bottom: 50px;
     justify-content: center;
-  }
-
-  .bodyImage {
-    margin: auto;
   }
 
   .mainContent {

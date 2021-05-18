@@ -11,7 +11,7 @@
 <section class="headSection">
 <section class="headLinks">
     <nav id="headNav">
-    <a href="index.php">RAWLING</a>
+    <a href="../index.php">RAWLING</a>
     <a href="#">VALUES</a>
     <a href="philosophy.php">PHILOSOPHY</a>
     <a href="team.php">TEAM</a>
