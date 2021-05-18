@@ -1,0 +1,36 @@
+.contact_form{
+
+    form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    height: 35px;
+    margin-bottom: 1rem;
+    padding:.5rem 1rem;
+    width: 80%;
+}
+label{
+    font-size: 16px;
+    font-weight: 800;
+    padding: 1rem 0;
+    position: relative;
+}
+label::after{
+    content: "*";
+    padding: 5px;
+}
+textarea{
+    width: 80%;
+    margin-bottom: 1rem;
+    padding:.5rem 1rem;
+}
+}
+
+.contactButton{
+    width: 120px;
+    color: white;
+    background-color:#8f1665;
+    text-align: center;
+    cursor: pointer;
+}

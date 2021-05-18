@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +12,7 @@
 <section class="headSection">
 <section class="headLinks">
     <nav id="headNav">
-    <a href="index.php">RAWLING</a>
+    <a href="../index.php">RAWLING</a>
     <a href="values.php">VALUES</a>
     <a href="philosophy.php">PHILOSOPHY</a>
     <a href="team.php">TEAM</a>
@@ -32,6 +33,24 @@
         
         </section>
     <section class="mainContent">
+    <section class="contact_form">
+    <h2> Have any questions?</h2>
+    <form action="send.php" method="post">
+    <label for="name">Your Name</label>
+    <input id="name" type="text" name="name" value="">
+
+    <label for="email">Your Email</label>
+    <input id="email" type="text" name="email" value="">
+
+    <label for="phone">Your Phone</label>
+    <input id="phone" type="text" name="phone" value="">
+
+    <label for="question">Your Question</label>
+    <textarea id="question" type="text" name="question" cols="20" rows="10"></textarea>
+
+     <button type="submit" name="submit" class="contactButton"><p>Submit</p></button>
+</form>
+    </section>
     <section class="Content1">
     <h2>Rawling Financial Inc.</h2>
     <p>Suite 420, 200 Queens Avenue</p>
